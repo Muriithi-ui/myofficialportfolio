@@ -175,7 +175,7 @@ export default function Home () {
         <section>
           <div>
             <h3 className='py-2 mt-5 mb-5 text-3xl text-center text-black dark:text-white'>Photo dump</h3>
-            <p className='py-2 text-2xl leading-8 text-center text-gray-800 dark:text-white'>Hack the City, A hackathon I participated in, in the nineth edition of the Africities Summit held in Kisumu, Kenya courtesy of Lakehub in patnership with 01 Talent,
+            <p className='py-2 text-2xl leading-8 text-center text-gray-800 dark:text-white'>Hack the City, A hackathon I participated in, in the ninth edition of the Africities Summit held in Kisumu, Kenya courtesy of Lakehub in patnership with 01 Talent,
             Jokkolabs Global and United Cities and Local Governments(UCLG)</p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap' >
