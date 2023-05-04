@@ -1,0 +1,32 @@
+{
+  "name": "myreact-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
+    "@npmcli/fs": "^3.1.0",
+    "@npmcli/move-file": "^3.0.0",
+    "@rollup/plugin-inject": "^5.0.3",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "firebase": "^9.21.0",
+    "moment": "^2.29.4",
+    "next": "13.3.1",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "rollup-plugin-inject": "^3.0.2",
+    "sharp": "^0.32.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
