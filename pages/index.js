@@ -25,6 +25,10 @@ import web3 from '../public/web3.jpg';
 import web4 from '../public/web4.jpg';
 import web5 from '../public/web5.jpg';
 import web6 from '../public/web6.jpg';
+import cert1 from '../public/cert1.jpg';
+import cert2 from '../public/cert2.jpg';
+import cert3 from '../public/cert3.jpg';
+import cert4 from '../public/cert4.jpg';
 import { useState } from 'react';
 export default function Home () {
   const[darkMode, setDarkMode] = useState(false);
@@ -153,6 +157,18 @@ export default function Home () {
               <p className='py-1 text-gray-800 dark:text-white '>GSAP Animations</p>
               <p className='py-1 text-gray-800 dark:text-white '>React Icons</p>
             </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className='py-2 mt-5 mb-5 text-3xl text-center text-black dark:text-white'>Certificates</h3>
+            <p className='py-2 text-2xl leading-8 text-center text-gray-800 dark:text-white'>Below are the <span className='text-teal-600'> certificates </span> I have acquired in my self-learning journey</p>
+          </div>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap' >
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert1} alt='' /></div>
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert2} alt='' /></div>
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert3} alt='' /></div>
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert4} alt='' /></div>
           </div>
         </section>
         <section>
