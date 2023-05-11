@@ -161,6 +161,18 @@ export default function Home () {
         </section>
         <section>
           <div>
+            <h3 className='py-2 mt-5 mb-5 text-3xl text-center text-black dark:text-white'>Certificates</h3>
+            <p className='py-2 text-2xl leading-8 text-center text-gray-800 dark:text-white'>Below are the <span className='text-teal-600'> certificates </span> I have acquired in my self-learning journey</p>
+          </div>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap' >
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert1} alt='' /></div>
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert2} alt='' /></div>
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert3} alt='' /></div>
+          <div className='flex-1 basis-1/3'><Image className='object-cover rounded-lg' width={'100%'} height={'100%'} src={cert4} alt='' /></div>
+          </div>
+        </section>
+        <section>
+          <div>
             <h3 className='mt-5 mb-5 text-3xl text-center text-black dark:text-white'>Portfolio</h3>
               <p className='py-2 text-2xl leading-8 text-center text-gray-800 dark:text-white'>
               As a <span className='text-teal-600'> front-end React developer </span> and <span className='text-teal-600'> UI designer</span>, I offer a wide range of services that can help bring your website or web application to life. I specialize in creating
